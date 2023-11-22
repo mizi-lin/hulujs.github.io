@@ -1,0 +1,32 @@
+.montage-editor-drawer {
+    :global {
+        .ant-drawer-body {
+            padding: 0;
+        }
+    }
+}
+
+.montage-editor-tab {
+    :global {
+        .ant-tabs-nav {
+            margin-bottom: 0;
+            &::before {
+                border-bottom: 1px solid rgb(71, 71, 71);
+            }
+
+            .ant-tabs-tab {
+                color: rgb(171, 171, 171);
+            }
+        }
+    }
+}
+
+.montage-editor-intances-tree {
+    background-color: transparent;
+    color: rgb(171, 171, 171);
+    :global {
+        .ant-tree-switcher {
+            display: none;
+        }
+    }
+}
