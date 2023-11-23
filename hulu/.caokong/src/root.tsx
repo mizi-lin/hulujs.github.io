@@ -5,15 +5,6 @@ import { RecoilRoot, RecoilEnv } from 'recoil';
 import RecoilNexus from 'recoil-nexus';  
 
 
-    import { vconsole, reportWebVitals } from '~ck'
-    /**
-     * 安装Redux DevTool调试Recoil
-     * https://github.com/theohagos/recoil-observer
-     * https://github.com/reduxjs/redux-devtools
-     * https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd
-     */ 
-    import { RecoilObserver } from '@theohagos/recoil-observer';
-
 
 RecoilEnv.RECOIL_DUPLICATE_ATOM_KEY_CHECKING_ENABLED = false;
 
@@ -25,10 +16,6 @@ function render(App: ComponentType) {
         <StrictMode>
             <RecoilRoot>
                 
-                    {/* 安装Redux DevTool调试Recoil */}
-                    {/* bug: 会预执行recoil state */}
-                    {/*  <RecoilObserver env="development" /> */}
-                
                 <RecoilNexus />
                 <HelmetProvider>
                     <App />
@@ -37,9 +24,6 @@ function render(App: ComponentType) {
         </StrictMode>,
     );
 
-    
-        vconsole();
-        reportWebVitals();
     
 }
 

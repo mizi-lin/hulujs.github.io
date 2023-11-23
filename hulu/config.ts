@@ -898,6 +898,7 @@ const config = {
     compiler: 'vite',
     build: {
         target: 'esnext',
+        outDir: './docs',
         rollupOptions: {
             logLevel: 'silent',
             output: {
