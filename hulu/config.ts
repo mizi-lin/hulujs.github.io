@@ -896,6 +896,7 @@ const __dirname = path.dirname(__filename);
 const config = {
     title: 'demo28',
     compiler: 'vite',
+    base: '/hulujs.github.io/',
     build: {
         target: 'esnext',
         outDir: './docs',
