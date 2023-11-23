@@ -76,7 +76,7 @@ export const InstanceList: FC<InstanceListProps> = (props) => {
     const instances = getIntances(target, pathname);
 
     const openEditor = (path: string) => {
-        const url = `${editor}://file/${path}`;
+        const url = `${editor}://file${path}`;
         window.open(url);
     };
 
@@ -174,21 +174,12 @@ export const InstanceList: FC<InstanceListProps> = (props) => {
                         }}
                     >
                         <MetCenter gap={8}>
-                            <Met tag={ChromeOutlined} fs={22} color="#cecece" />
-                            <Met
-                                tag={'img'}
-                                width={24}
-                                src={vscodeIcon}
-                                onClick={() => handleBaseFiberSource(instance)}
-                            />
+                            <Met tag={Fragment} fs={22} color="#cecece">
+                                <Met tag={ChromeOutlined} onClick={() => handleBaseFiberSource(instance)} />
+                                <Met tag={CodeOutlined} onClick={() => openEditor(path)} />
+                            </Met>
                         </MetCenter>
-                        <MetBox
-                            gap={2}
-                            flex={1}
-                            onClick={() => {
-                                openEditor(path);
-                            }}
-                        >
+                        <MetBox gap={2} flex={1}>
                             <MetFlex tag={'code'} gap={8} color="royalblue" placement={'left'}>
                                 <Met fontWeight={500}>&lt;{name}</Met>
                                 <PropKeys propKeys={propKeys} props={props} />

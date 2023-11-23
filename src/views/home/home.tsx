@@ -1,16 +1,10 @@
-import { number } from '@recoiljs/refine';
-import { syncEffect } from 'recoil-sync';
-import { useRoute } from '~ck';
-import { currentUserState } from '../demo/demo';
+import { useQuery } from '~ck';
 
 const Home = () => {
-    // const value = useRecoilValue(currentUserState);
+    const [{ a }] = useQuery();
     return (
         <article>
-            <header>Home</header>
-            <main>
-                <Outlet />
-            </main>
+            <header>Home Asas {a}</header>
         </article>
     );
 };

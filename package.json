@@ -4,6 +4,11 @@
     "packageManager": "yarn@3.5.1",
     "type": "module",
     "main": "./src/main.tsx",
+    "scripts": {
+        "dev": "oo dev",
+        "build": "oo- prod",
+        "serve": "vite preview"
+    },
     "resolutions": {
         "@hulu/met": "/Users/Mizi/works/hulu/hulujs/dist/@hulu/met",
         "@hulu/msc": "/Users/Mizi/works/hulu/hulujs/dist/@hulu/msc",

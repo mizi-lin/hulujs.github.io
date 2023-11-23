@@ -641,12 +641,12 @@ __metadata:
 
 "@hulu/msc@file:/Users/Mizi/works/hulu/hulujs/dist/@hulu/msc::locator=demo-28%40workspace%3A.":
   version: 0.0.1
-  resolution: "@hulu/msc@file:/Users/Mizi/works/hulu/hulujs/dist/@hulu/msc#/Users/Mizi/works/hulu/hulujs/dist/@hulu/msc::hash=bce53f&locator=demo-28%40workspace%3A."
+  resolution: "@hulu/msc@file:/Users/Mizi/works/hulu/hulujs/dist/@hulu/msc#/Users/Mizi/works/hulu/hulujs/dist/@hulu/msc::hash=296be2&locator=demo-28%40workspace%3A."
   dependencies:
     "@hulu/mu": ../mu
     "@hulu/types": ../types
     axios: ^1.6.0
-  checksum: 5730bca301a0528954f74733d89d87ab940a1dd1de563bfc1e50b1f90362d1a79e7894e547d1e2555bfcb9e7bf7bd80d616261bcf3d5fe9498474322732c8756
+  checksum: 808bb1139229ebde27938d42a4c4f1b9b2aed4574a29b59a0733005d5061165870dacdebc7121329fea1aecb4343d46a9347d51b20e8df3004466283fea590da
   languageName: node
   linkType: hard
 

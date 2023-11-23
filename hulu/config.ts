@@ -896,6 +896,20 @@ const __dirname = path.dirname(__filename);
 const config = {
     title: 'demo28',
     compiler: 'vite',
+    build: {
+        target: 'esnext',
+        rollupOptions: {
+            logLevel: 'silent',
+            output: {
+                manualChunks: {
+                    react: ['react'],
+                    'react-dom': ['react-dom'],
+                    'react-router-dom': ['react-router-dom'],
+                    recoil: ['recoil']
+                }
+            }
+        }
+    },
     plugins: [
         React(),
         Inspect(),

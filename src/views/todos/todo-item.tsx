@@ -19,7 +19,7 @@ export const TodoItem: FC<{ item: Record<string, any>; inx: number }> = ({ item,
                             toggleTodo(item, inx);
                         }}
                     />
-                    <Span>oo {title}</Span>
+                    <Span>ooooooOooo {title}</Span>
                 </Space>
             </Label>
         </Div>

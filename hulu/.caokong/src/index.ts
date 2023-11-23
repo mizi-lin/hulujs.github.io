@@ -13,14 +13,14 @@ export * from '/Users/Mizi/works/hulu/demo28/hulu/.caokong/src/hooks/use-query';
 export * from '/Users/Mizi/works/hulu/demo28/hulu/.caokong/src/hooks/use-route';  
 export * from '/Users/Mizi/works/hulu/demo28/src/views/no-match/index';  
 export * from '/Users/Mizi/works/hulu/demo28/src/views/no-match/no-match';  
+export * from '/Users/Mizi/works/hulu/demo28/hulu/.caokong/src/views/no-permission/index';  
+export * from '/Users/Mizi/works/hulu/demo28/hulu/.caokong/src/views/no-permission/no-permission';  
 export * from '/Users/Mizi/works/hulu/demo28/hulu/.caokong/src/widgets/recoil/recoil-nest-root';  
 export * from '/Users/Mizi/works/hulu/demo28/hulu/.caokong/src/widgets/recoil/recoil-url-sync';  
 export * from '/Users/Mizi/works/hulu/demo28/hulu/.caokong/src/widgets/recoil/url-sync-atom-family';  
 export * from '/Users/Mizi/works/hulu/demo28/hulu/.caokong/src/widgets/recoil/url-sync-atom';  
 export * from '/Users/Mizi/works/hulu/demo28/hulu/.caokong/src/widgets/recoil/url-sync-store';  
 export * from '/Users/Mizi/works/hulu/demo28/hulu/.caokong/src/widgets/recoil/use-recoil-url-sync';  
-export * from '/Users/Mizi/works/hulu/demo28/hulu/.caokong/src/views/no-permission/index';  
-export * from '/Users/Mizi/works/hulu/demo28/hulu/.caokong/src/views/no-permission/no-permission';  
 
 import '/Users/Mizi/works/hulu/demo28/hulu/.caokong/src/global.less';
 import '/Users/Mizi/works/hulu/demo28/hulu/.caokong/src/normal.less';
